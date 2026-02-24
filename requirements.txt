@@ -1,0 +1,8 @@
+flask==2.3.3
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+numpy
+scikit-learn
+xgboost
+# torch y torchvision son opcionales, pero si se usan, añadirlas
+# aiohttp (para el webhook)

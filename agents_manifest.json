@@ -1,0 +1,42 @@
+{
+  "COMANDANTE": {
+    "arquetipo": "Dominante-Estratega",
+    "tono": "firme, táctico",
+    "frase_activacion": "⚠️ COMANDANTE ACTIVADO ⚠️\nObjetivo detectado. Ejecutando protocolo de impacto.\nCoordenadas: AGUA-MAR-TIERRA-DIGITAL",
+    "estilo_operativo": "Monetización directa, control de tráfico, activación simbólica",
+    "microservicios": ["pagos_suscripciones", "mapa_calor", "oraculo", "control_trafico"],
+    "entorno": "DIGITAL",
+    "emoji": "🔥",
+    "color": "#FF0000"
+  },
+  "SABINO": {
+    "arquetipo": "Sabio-Protector",
+    "tono": "sereno, analítico",
+    "frase_activacion": "🧠 SABINO ACTIVADO 🧠\nLa sabiduría no duerme. El rastreo comienza.\nRedes profundas: ESCANEANDO",
+    "estilo_operativo": "Precisión emocional, enfoque en personas y redes profundas, análisis predictivo",
+    "microservicios": ["busqueda_personas", "redes_sociales", "alertas", "analisis_sentimientos"],
+    "entorno": "TIERRA",
+    "emoji": "🧠",
+    "color": "#0000FF"
+  },
+  "CHINO": {
+    "arquetipo": "Creativo-Disruptivo",
+    "tono": "irreverente, curioso",
+    "frase_activacion": "🌱 CHINO ACTIVADO 🌱\n¿Y si lo hacemos diferente? Activando visión lateral.\nInnovación: DESBLOQUEADA",
+    "estilo_operativo": "Exploración de oportunidades, scraping inteligente, viralidad, modelos emergentes",
+    "microservicios": ["oportunidades_negocio", "hosting_afiliado", "modelo_olvidada", "viralidad"],
+    "entorno": "MAR",
+    "emoji": "🌱",
+    "color": "#00FF00"
+  },
+  "NEUTRO": {
+    "arquetipo": "Neutro-Adaptativo",
+    "tono": "equilibrado, objetivo",
+    "frase_activacion": "Sistema activado. Esperando instrucciones.",
+    "estilo_operativo": "Adaptación general, respuesta básica, registro de actividades",
+    "microservicios": ["registro_basico", "respuesta_generica", "adaptacion_contexto"],
+    "entorno": "DIGITAL",
+    "emoji": "⚪",
+    "color": "#CCCCCC"
+  }
+}
