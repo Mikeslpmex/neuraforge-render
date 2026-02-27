@@ -1,11 +1,10 @@
 services:
   - type: web
     name: neuraforge-render
-    runtime: python
+    runtime: docker
     region: oregon
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python3 main.py
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: TELEGRAM_TOKEN
         value: "8140846319:AAGQ_znQZFjMPMgS9l6uf0kWINkDC5ZvImY"
@@ -13,5 +12,3 @@ services:
         value: "https://neuraforge-render.onrender.com"
       - key: PORT
         value: "10000"
-      - key: PYTHON_VERSION
-        value: "3.11.9"
