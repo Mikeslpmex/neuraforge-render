@@ -1,8 +1,7 @@
-flask==2.3.3
+flask
 python-telegram-bot==20.7
-python-dotenv==1.0.0
+python-dotenv
+firebase-admin
 numpy
 scikit-learn
 xgboost
-# torch y torchvision son opcionales, pero si se usan, añadirlas
-# aiohttp (para el webhook)
